@@ -31,7 +31,7 @@ view: mytable {
     sql: ${TABLE}.unique_id ;;
   }
 
-  dimension: visits {
+  measure: visits {
     type: number
     sql: ${TABLE}.visits ;;
   }
