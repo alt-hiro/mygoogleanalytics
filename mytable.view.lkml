@@ -32,7 +32,7 @@ view: mytable {
   }
 
   measure: visits {
-    type: number
+    type: sum
     sql: ${TABLE}.visits ;;
   }
 
